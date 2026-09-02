@@ -29,8 +29,16 @@ theme:
     - content.code.copy
     - toc.follow
 
+extra_css:
+  - stylesheets/extra.css
+
 plugins:
   - search
+  - glightbox:
+      auto_caption: true
+      caption_position: bottom
+      touchNavigation: true
+      loop: true
 
 markdown_extensions:
   - tables
@@ -39,6 +47,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
+  - md_in_html
 
 nav:
   - Home: index.md
@@ -84,3 +94,4 @@ nav:
     - "ProfileOptimization_Resume": career-resume/profileoptimization-resume/index.md
   - Other:
     - "Lesson 15A": other/lesson-15a/index.md
+  - Handwritten Notes: Handwriten_notes/index.md
