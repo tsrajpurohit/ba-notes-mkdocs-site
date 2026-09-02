@@ -1,0 +1,86 @@
+site_name: BA Notes Library
+site_description: Searchable knowledge base for the BA-Notes repository (Agile, BA interview prep, resume, project simulation)
+repo_url: https://github.com/tsrajpurohit/BA-Notes
+repo_name: tsrajpurohit/BA-Notes
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - toc.follow
+
+plugins:
+  - search
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - Home: index.md
+  - Masterclass Overview:
+    - "MASTERCLASS": masterclass-overview/masterclass/index.md
+  - Agile Masterclass:
+    - "Agile Masterclass_M1 (l1-13)": agile-masterclass/agile-masterclass-m1-l1-13/index.md
+    - "Agile Masterclass_M2 (14-28)": agile-masterclass/agile-masterclass-m2-14-28/index.md
+    - "Agile Masterclass_M3 (29-42)": agile-masterclass/agile-masterclass-m3-29-42/index.md
+    - "Agile Masterclass_M4 (43-71)": agile-masterclass/agile-masterclass-m4-43-71/index.md
+    - "Agile Masterclass_M5 (72-75)": agile-masterclass/agile-masterclass-m5-72-75/index.md
+    - "Agile Masterclass_M6 (76-88)": agile-masterclass/agile-masterclass-m6-76-88/index.md
+    - "Agile Masterclass_M7 (89-)": agile-masterclass/agile-masterclass-m7-89/index.md
+    - "Agile Masterclass_M8 (104)": agile-masterclass/agile-masterclass-m8-104/index.md
+    - "Agile Masterclass_M9 (104)": agile-masterclass/agile-masterclass-m9-104/index.md
+    - "Agile Masterclass_M10 (1-15)": agile-masterclass/agile-masterclass-m10-1-15/index.md
+    - "Agile Masterclass_M11 (1-12)": agile-masterclass/agile-masterclass-m11-1-12/index.md
+    - "Agile Masterclass_M12 (1-10)": agile-masterclass/agile-masterclass-m12-1-10/index.md
+    - "Agile Masterclass_M13 (1-10)": agile-masterclass/agile-masterclass-m13-1-10/index.md
+    - "Agile Masterclass_M14 (1-17)": agile-masterclass/agile-masterclass-m14-1-17/index.md
+    - "Agile Masterclass_M15 (1-36)": agile-masterclass/agile-masterclass-m15-1-36/index.md
+    - "Agile Masterclass_M15A (1-10)": agile-masterclass/agile-masterclass-m15a-1-10/index.md
+    - "Agile Masterclass_M15B (1-10)": agile-masterclass/agile-masterclass-m15b-1-10/index.md
+    - "Agile Masterclass_M16 (1-36)": agile-masterclass/agile-masterclass-m16-1-36/index.md
+    - "Agile Masterclass_M16_AddOn(1-36)": agile-masterclass/agile-masterclass-m16-addon-1-36/index.md
+    - "Agile Masterclass_M16A (1-36)": agile-masterclass/agile-masterclass-m16a-1-36/index.md
+    - "Agile Masterclass_M16B (1-36)": agile-masterclass/agile-masterclass-m16b-1-36/index.md
+    - "Agile Masterclass_M16C (1-36)": agile-masterclass/agile-masterclass-m16c-1-36/index.md
+    - "Agile Masterclass_M16D(1-36)": agile-masterclass/agile-masterclass-m16d-1-36/index.md
+    - "Agile Masterclass_M16E(1-36)": agile-masterclass/agile-masterclass-m16e-1-36/index.md
+    - "Agile Masterclass_M16F(1-36)": agile-masterclass/agile-masterclass-m16f-1-36/index.md
+    - "Agile Masterclass_M16G(1-36)": agile-masterclass/agile-masterclass-m16g-1-36/index.md
+  - Roadmaps:
+    - "MODULE 15B Roadmap": roadmaps/module-15b-roadmap/index.md
+    - "Module 15 Learning Roadmap": roadmaps/module-15-learning-roadmap/index.md
+  - Tools:
+    - "Advance_Jra": tools/advance-jra/index.md
+  - Project Simulation:
+    - "REAL BA PROJECT SIMULATION1": project-simulation/real-ba-project-simulation1/index.md
+  - Interview Prep:
+    - "🎯 BA Interview Preparation": interview-prep/ba-interview-preparation/index.md
+  - Career & Resume:
+    - "ProfileOptimization_Resume": career-resume/profileoptimization-resume/index.md
+  - Other:
+    - "Lesson 15A": other/lesson-15a/index.md
